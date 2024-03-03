@@ -4,7 +4,7 @@ const tituloBienvenida = document.getElementById("tituloBienvenida")
 const logoutButton = document.getElementById("logout")
 
 
-tituloBienvenida.innerHTML += usuarioLogueado.nombre
+tituloBienvenida.innerHTML +=   usuarioLogueado.nombre
 
 logoutButton.addEventListener("click", function(){
     localStorage.removeItem("usuarioLogueado")// elimino el usuario de la memoria del navegador

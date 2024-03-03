@@ -5,7 +5,7 @@ const cuentas = [
     { nombre: "Mali", password: "1234", saldo: 200 },
     { nombre: "Gera", password: "1234", saldo: 290 },
     { nombre: "Maui", password: "1234", saldo: 67 },
-    { nombre: "Lautaro", password: "1234", saldo: 120 },
+    
   ];
   let usuarioRegistrado = null; //Variable para modificar con el usuario que ingrese , EJ:  { nombre: "Lautaro", password: 123457, saldo: 120 },
   
