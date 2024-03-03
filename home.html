@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Estilos propios -->
+    <link rel="stylesheet" href="./assets/css/style/stylesaldo.css" />
+    <!-- Javascript propio con defer, ELIGO EL JS DEL ARCHIVO HOME.JS=> que se ejecute cuando el DOM ESTE CARGADO POR COMPLETO-->
+    <script defer src="./assets/js/login.js"></script>
+    <script defer src="./assets/js/Funcion.js"></script>
+
+    <title>HOME</title>
+  </head>
+  <body>
+    <nav>
+      <span>Banco DEV.F</span>
+      <button id="logout" class="cerrar">Cerrar sesión</button>
+    </nav>
+    <header>
+      <h1 id="tituloBienvenida">Bienvenido</h1>
+
+
+    </header>
+    <div class="row">
+    <section class="section1">
+     <div class="cabecero">
+      <div class="presupuesto">
+        <div class="presupuesto_titulo">CUENTA</div>  
+        <button onclick="consultarSaldo()">Consultar Saldo</button>     
+    </section>
+    <section class="section2">
+      <section>
+
+        <div id="operaciones">
+          
+          <br>
+          <label for="monto-ingreso">Ingresar monto:</label>
+          <input type="number" id="monto-ingreso">
+          <button onclick="ingresarMonto()">Ingresar</button>
+          <br>
+          <label for="monto-retiro">Retirar monto:</label>
+          <input type="number" id="monto-retiro">
+          <button onclick="retirarMonto()">Retirar</button>
+      </div>
+            
+       </section>
+     </section>
+
+    </div>
+     </body>
+</html>
